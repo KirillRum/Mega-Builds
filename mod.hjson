@@ -1,0 +1,6 @@
+name: "mega-build"
+displayName: "Mega Builds"
+author: "nekit508 and KirillRum"
+description: "alpha 0.1"
+version: "Fix update"
+minGameVersion: "136"
