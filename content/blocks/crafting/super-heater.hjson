@@ -1,0 +1,28 @@
+{
+    type: HeatProducer
+	category: crafting
+	name: Super heater
+	size:2
+	drawer:{
+	    type: DrawMulti
+		drawers:[
+		    {
+		    type:DrawDefault
+		    }
+		    {
+		    type:DrawHeatOutput
+		    }
+		]
+	}
+	rotateDraw: false
+	heatOutput: 15
+	regionRotated1: 1
+	consumes:{
+	    power:0.9
+	}
+	requirements:[
+	    silicon/50
+		tungsten/40
+		oxide/45
+	]
+}

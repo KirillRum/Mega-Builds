@@ -1,0 +1,19 @@
+{
+    type: Wall
+	category: defense
+	health: 4500
+	name: Megawall
+	size: 2
+	insulated: true
+	absorbLasers: true
+	chanceDeflect: 10
+	flashHit: true
+	lightningChance: 0.05
+	requirements:[
+	    plastanium/7
+        surge-alloy/7
+        phase-fabric/3
+        metaglass/2
+	]
+	research: surge-wall-large
+}

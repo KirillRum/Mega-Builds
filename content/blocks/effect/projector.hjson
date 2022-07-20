@@ -1,0 +1,23 @@
+{
+    type: OverdriveProjector
+	category: effect
+	size: 2
+	speedBoost: 75
+	range: 200
+	consumes:{
+	    power: 3
+		items:{
+		    items:[
+			    copper/1
+			]
+			booster: true
+			boostEfficiency: 2
+			optional: true
+			
+		}
+	}
+	requirements:[
+	    copper/10
+	]
+	research: overdrive-dome
+}

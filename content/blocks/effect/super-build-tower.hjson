@@ -1,0 +1,14 @@
+{
+
+    type:BuildTurret
+	category:effect
+	name: Super build tower
+	health: 12500
+	range: 450f
+	size: 3
+	buildSpeed: 5f
+	requirements:[
+	]
+	research: core-bastion
+	
+}

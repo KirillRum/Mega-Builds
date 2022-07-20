@@ -1,0 +1,18 @@
+{
+
+    type:UnitCargoLoader
+	category:distribution
+	name: Early cargo loader
+	size: 3
+	buildTime: 60
+	consumes:{
+	    power: 0.2
+	}
+	itemCapacity: 400
+	requirements:[
+		silicon/120
+		beryllium/90
+	]
+	research: unit-cargo-loader
+	
+}

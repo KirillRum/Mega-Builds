@@ -1,0 +1,32 @@
+{
+    type: Reconstructor
+	category: units
+	name: Universal reconstructor
+	regionSuffix: "-dark"
+	size: 3
+	consumes:{
+	    power: 3
+		liquid:{
+		    liquid:hydrogen
+			amount: 0.05
+		}
+		items:{
+		    items:[
+			    silicon/60
+				tungsten/40
+			]
+		}
+	}
+	constructTime:2700
+	upgrades: [
+	    [stell, locus]
+		[merui, cleroi]
+		[elude, avert]
+	]
+	requirements:[
+	    silicon/150
+		beryllium/250
+		tungsten/100
+	]
+	research: mech-refabricator
+}

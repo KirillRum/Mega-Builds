@@ -1,0 +1,26 @@
+{
+
+    type:Drill
+	category:production
+	name: Improved drill
+	hasLiquids: true
+	tier: 10
+	size: 3
+	drillTime: 2
+	itemCapacity: 1000000
+	hardnessDrillMultiplier: 0
+	consumes:{
+	    liquid:{
+		        liquid: water
+				amount: 0.1
+				optional: true
+				booster: true
+			}
+	}
+	requirements:[
+		copper/50
+		lead/40
+	]
+	research: mechanical-drill
+	
+}

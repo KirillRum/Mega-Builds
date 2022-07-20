@@ -1,0 +1,15 @@
+{
+
+    type:OverflowDuct
+	category:distribution
+	name: Speeded overflow duct
+	health: 125
+	speed: 2f
+	solid: false
+	requirements:[
+		beryllium/12
+		graphite/12
+	]
+	research: overflow-duct
+	
+}

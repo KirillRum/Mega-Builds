@@ -1,0 +1,60 @@
+{
+
+    type:RegenProjector
+	category:effect
+	hasLiquids: true
+	name: Regeneric projector
+	health: 12500
+	range: 56
+	size: 3
+	healPercent:0.1 
+	consumes:{
+	    power: 2
+		items:{
+		    items: [
+			    silicon/1
+			]
+			booster: true
+			optional: true
+		}
+	}
+	drawer:{
+	    type: DrawMulti
+		drawers:[{
+		        type:DrawRegion
+				suffix:-bottom
+				}
+				{
+                type: DrawLiquidTile
+                drawLiquid: cyanogen
+                }
+				{
+				type: DrawDefault
+				}
+				{
+				type: DrawGlowRegion
+				color: 00fa9a
+				}
+				{
+				type:DrawPulseShape
+				layer: 0
+				color: 00fa9a
+				}
+				{
+				type:DrawShape
+				layer:0
+				radius:3.5
+				useWarmupRadius: true
+				timeScl: 2
+				color: 00fa9a
+				}
+			]
+		}
+	requirements:[
+	    beryllium/160
+		silicon/90
+		tungsten/60
+	]
+	research: core-bastion
+	
+}

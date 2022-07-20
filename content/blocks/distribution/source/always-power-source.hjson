@@ -1,0 +1,11 @@
+{
+
+    type:PowerSource
+	category:power
+	name: Always power source
+	health: 12500
+	requirements:[
+	]
+	alwaysUnlocked: true
+	
+}

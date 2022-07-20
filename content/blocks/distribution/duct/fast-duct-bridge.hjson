@@ -1,0 +1,15 @@
+{
+
+    type:DuctBridge
+	category:distribution
+	name: Speeded duct bridge
+	health: 125
+	speed: 2f
+	range: 8
+	requirements:[
+		beryllium/25
+		graphite/10
+	]
+	research: duct-bridge
+	
+}

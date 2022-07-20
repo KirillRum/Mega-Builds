@@ -1,0 +1,11 @@
+{
+
+    type:ItemSource
+	category:distribution
+	name: Always item source
+	health: 12500
+	requirements:[
+	]
+	alwaysUnlocked: true
+	
+}

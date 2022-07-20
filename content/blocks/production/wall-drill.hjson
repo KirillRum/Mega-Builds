@@ -1,0 +1,17 @@
+{
+
+    type:BeamDrill
+	category:production
+	name: Plasma Drilling Rig
+	tier:10
+	size:2
+	range:20
+	drillTime:1f
+	fogRadius:20
+	itemCapacity: 1000
+	requirements:[
+		graphite/10
+	]
+	research: plasma-bore
+	
+}

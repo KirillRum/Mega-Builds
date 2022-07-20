@@ -1,0 +1,40 @@
+{
+	
+	type:ThermalGenerator
+	category: power
+	name: Improved turbine condenser
+	attribute: steam
+	size: 3
+	fogRadius: 3
+	displayEfficiencyScale: 1
+	generateEffect: turbinegenerate
+	effectChance: 0.02
+	ambientSound: hum
+	ambientSoundVolume: 0.06
+	displayEfficiency: false
+	powerProduction: 5f
+	minEfficiency: 8
+	hasLiquids: true
+	outputLiquid: water/0.1
+	liquidCapacity: 9000
+	requirements: [
+	           beryllium/80
+			   graphite/20
+	]
+	drawer:{
+	    type: DrawMulti
+		drawers:[
+		{
+		    type: DrawDefault
+		}
+		{
+		    type: DrawRegion
+			suffix: -rotator
+			rotateSpeed: 5.4
+			spinSprite: true
+		}
+		]
+	}
+	research: turbine-condenser
+	
+}

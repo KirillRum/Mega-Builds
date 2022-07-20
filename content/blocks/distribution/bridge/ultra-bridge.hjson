@@ -1,0 +1,15 @@
+{
+    type: ItemBridge
+	category: distribution
+	fadeIn: false
+	moveArrows: false
+	name: Accelerated bridge conveyor
+	range: 12
+	arrowSpacing: 6
+	hasPower: false
+	requirements:[
+	    lead/8
+		copper/8
+	]
+	research: bridge-conveyor
+}

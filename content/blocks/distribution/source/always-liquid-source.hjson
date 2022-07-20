@@ -1,0 +1,11 @@
+{
+
+    type:LiquidSource
+	category:liquid
+	name: Always liquid source
+	health: 12500
+	requirements:[
+	]
+	alwaysUnlocked: true
+	
+}

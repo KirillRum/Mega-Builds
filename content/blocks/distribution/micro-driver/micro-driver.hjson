@@ -1,0 +1,17 @@
+{
+
+    type:MassDriver
+	category:distribution
+	name: Little mass driver
+	hasPower: false
+	size: 2
+	health: 1500
+	itemCapacity: 100
+	reload: 60f
+	range: 330f
+	requirements:[
+	    copper/10
+	]
+	research: mass-driver
+	
+}

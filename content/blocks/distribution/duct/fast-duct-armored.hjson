@@ -1,0 +1,16 @@
+{
+
+    type:Duct
+	category:distribution
+	name: Speeded armored duct
+	health: 185
+	speed: 2f
+	armored: true
+	requirements:[
+		beryllium/2
+		graphite/1
+		tungsten/1
+	]
+	research: armored-duct
+	
+}

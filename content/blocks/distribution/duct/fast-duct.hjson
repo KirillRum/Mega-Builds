@@ -1,0 +1,14 @@
+{
+
+    type:Duct
+	category:distribution
+	name: Speeded duct
+	health: 125
+	speed: 2f
+	requirements:[
+		beryllium/1
+		graphite/1
+	]
+	research: duct
+
+}

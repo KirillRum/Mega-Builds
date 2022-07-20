@@ -1,0 +1,45 @@
+{
+    type: UnitFactory
+	category: units
+	name: Universal unit constructor
+	size: 3
+	configurable: true
+	plans:[
+	    {
+		    unit: stell
+			time: 2100
+			requirements:[
+			    beryllium/40
+				silicon/50
+			]
+		}
+		{
+		    unit: elude
+			time: 2700
+			requirements:[
+			    graphite/50
+				silicon/70
+			]
+		}
+		{
+		    unit: merui
+			time: 2400
+			requirements:[
+			    beryllium/50
+				silicon/70
+			]
+		}
+	]
+	regionSuffix: "-dark"
+	fogRadius: 9
+    research: mech-fabricator
+	consumes:{
+	    power:2
+	}
+	requirements:[
+	    beryllium/250
+		silicon/200
+		graphite/300
+		tungsten/60
+	]
+}

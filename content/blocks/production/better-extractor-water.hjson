@@ -1,0 +1,21 @@
+{
+    type: SolidPump
+	category: production
+	name: Water tower
+	result: water
+	pumpAmount: 0.33
+	size: 2
+	liquidCapacity: 90
+	rotateSpeed: 2.8
+	attribute: water
+	consumes:{
+	    power: 1.5
+	}
+	requirements:[
+	    copper/30
+		lead/30
+		metaglass/30
+		graphite/30
+	]
+	research: water-extractor
+}

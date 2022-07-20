@@ -1,0 +1,49 @@
+{
+    type:HeatCrafter
+	category: crafting
+	name: Silicon Arc Crucible
+	craftEffect:none
+	hasPower:true
+	hasLiquids:false
+	hasItems:true
+	outputItem: silicon/8
+	craftTime:50
+	size:4
+	fogRadius: 6
+	itemCapacity: 24
+	heatRequirement: 6
+	maxEfficiency: 2
+	drawer:{
+	    type:DrawMulti
+		drawers:[
+		{
+		type:DrawRegion
+		suffix:"-bottom"
+		}
+		{
+		type:DrawArcSmelt
+		}
+		{
+		type:DrawDefault
+		}
+		]
+	}
+	ambientSound:smelter
+	ambientSoundVolume:0.07
+	itemCapacity:30
+	consumes:{
+	    power:8
+	    items:{
+		    items:[
+			    graphite/2
+				sand/6
+			]
+		}
+	}
+	requirements:[
+	    beryllium/120
+		graphite/180
+		tungsten/90
+	]
+	research: silicon-arc-furnace
+}

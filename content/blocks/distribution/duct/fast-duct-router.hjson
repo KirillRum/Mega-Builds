@@ -1,0 +1,16 @@
+{
+
+    type:DuctRouter
+	category:distribution
+	name: Speeded duct router
+	health: 125
+	speed: 2f
+	regionRotated1: 1
+	solid: false
+	requirements:[
+		beryllium/10
+		graphite/5
+	]
+	research: duct-router
+	
+}

@@ -1,0 +1,13 @@
+{
+    type: Conveyor
+	name: Electromagnetic conveyor
+	category: distribution
+	health: 130
+	speed: 0.16
+	displayedSpeed: 22
+	requirements:[
+	    copper/2
+		lead/1
+	]
+	research: titanium-conveyor
+}
